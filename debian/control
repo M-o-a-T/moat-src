@@ -9,13 +9,13 @@ Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13),
 Standards-Version: 3.9.6
 Homepage: https://github.com/M-o-a-T/moat-src
 
-Package: python3-moat-src
+Package: moat-src
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends},
   python3-anyio (>= 2.0),
-  python3-moat-main,
+  moat-main,
 Recommends:
-  distkv (>= 0.32),
+  moat-kv (>= 0.32),
   python3-trio (>= 0.17),
 Description: MoaT module for handling MoaT-related packaging
 
