@@ -1,3 +1,9 @@
+moat-src (0.6.0-1) unstable; urgency=medium
+
+  * Merge
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Wed, 06 Mar 2024 10:34:24 +0100
+
 moat-src (0.5.2-1) unstable; urgency=medium
 
   * Merge
